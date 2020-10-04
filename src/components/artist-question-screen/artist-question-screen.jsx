@@ -1,6 +1,6 @@
 import React from "react";
 
-const ArtistQuestionScreen = (props) => {
+const ArtistQuestionScreen = () => {
 
   return (
     <section className="game game--artist">

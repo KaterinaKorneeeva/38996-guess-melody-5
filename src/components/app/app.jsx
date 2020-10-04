@@ -14,27 +14,27 @@ const App = (props) => {
 
   return (
     <BrowserRouter>
-    <Switch>
-      <Route exact path="/">
-        <WelcomeScreen errorsCount={errorsCount} />
-      </Route>
-      <Route exact path="/dev-artist">
-        <ArtistQuestionScreen />
-      </Route>
-      <Route exact path="/dev-genre">
-        <GenreQuestionScreen />
-      </Route>
-      <Route exact path="/login">
-        <AuthScreen />
-      </Route>
-      <Route exact path="/result">
-        <WinScreen />
-      </Route>
-      <Route exact path="/lose">
-        <GameOverScreen />
-      </Route>
-    </Switch>
-  </BrowserRouter>
+      <Switch>
+        <Route exact path="/">
+          <WelcomeScreen errorsCount={errorsCount} />
+        </Route>
+        <Route exact path="/dev-artist">
+          <ArtistQuestionScreen />
+        </Route>
+        <Route exact path="/dev-genre">
+          <GenreQuestionScreen />
+        </Route>
+        <Route exact path="/login">
+          <AuthScreen />
+        </Route>
+        <Route exact path="/result">
+          <WinScreen />
+        </Route>
+        <Route exact path="/lose">
+          <GameOverScreen />
+        </Route>
+      </Switch>
+    </BrowserRouter>
   );
 };
 
