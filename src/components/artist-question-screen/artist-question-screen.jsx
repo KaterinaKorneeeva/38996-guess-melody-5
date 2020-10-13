@@ -57,7 +57,7 @@ const ArtistQuestionScreen = (props) => {
       </section>
     </section>
   );
-  }
+};
 
 
 ArtistQuestionScreen.propTypes = {
